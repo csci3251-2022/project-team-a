@@ -1,5 +1,5 @@
 // Your C code here
-#include<cstdio>
+#include <stdio.h>
 
 int main(){
   printf("Team A working\n");
