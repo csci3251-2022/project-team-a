@@ -27,3 +27,11 @@ Our team will do
 ![example workflow](https://github.com/csci3251-2022/project-team-a/actions/workflows/c-cpp.yml/badge.svg)
 
 ### **Contribution**
+{% for student in site.stu %}
+- ![student]{{student.image}} @{{ student.user }} ({{ student.name }})
+    - {{ student.content}}
+
+{% endfor %}
+
+---
+Last updated: {{ site.time }}
